@@ -4,13 +4,14 @@ body{
 }
 
 .main-content {
-  margin-left: 7.5%;
-  margin-right: 7.5%;
+  margin-left: 5%;
+  margin-right: 5%;
   padding: 20px;
-  width: 90%; /* Adjust the width to leave space for the side banner */
+  width: 89%; /* Adjust the width to leave space for the side banner */
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start; /* Align items to the top */
+  /*outline: 2px solid blue;*/ /*debug*/ 
 }
 
 .main-content > * {

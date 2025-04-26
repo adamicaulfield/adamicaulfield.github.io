@@ -3,6 +3,14 @@ body{
   font-size:  18px;
 }
 
+table {
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+  border-spacing: 0 10px; /* 10px vertical spacing between rows */
+  border-collapse: separate; /* ensure spacing works */
+}
+
 .main-content {
   margin-left: 5%;
   margin-right: 5%;

@@ -1,0 +1,322 @@
+<html>
+<head/><link rel="stylesheet" href="default.css">
+<head>
+	<title>Adam Caulfield</title>
+	<!-- <meta http-equiv="Refresh" content="0; url='https://adamicaulfield.github.io/'" /> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+	<meta http-equiv="Pragma" content="no-cache"/>
+	<meta http-equiv="Expires" content="0"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="banner">
+	<div class="top-banner">
+	<nav>
+	  <ul style="margin-top:0pt">
+	    <li><a href="./index.html">Home</a></li>
+	    <li><a href="./research.html">Research</a></li>
+	    <li><a href="./experiences.html">Experiences</a></li>
+	    <li><a href="./links.html">My Links</a></li>
+	  </ul>
+	</nav>
+	</div>
+</div>
+
+<div class="main-content">
+	<hr>
+    <h1>Conference Deadlines</h1>
+    <hr>
+    <div style="font-size:18pt;">
+
+    	<p><span style="font-weight:bold">EuroSys 2026 (Cycle 1 of 2):</span></p>
+    	<ul style="margin-top:0pt">
+    		<li><span style="font-weight:bold">Register:</span> <span class="date">May 8, 2025 23:59:59</span></li>
+    		<li><span style="font-weight:bold">Submission:</span> <span class="date">May 15, 2025 23:59:59</span></li>
+    		<li><a href="https://2026.eurosys.org/">CFP Link</a></li>
+    	</ul>  		
+
+		<p><span style="font-weight:bold">RTSS 2025:</span></p>
+		<ul style="margin-top:0pt">
+			<li><span style="font-weight:bold">Submission:</span> <span class="date">May 22, 2025 23:59:59</span></li>
+			<li><a href="https://2025.rtss.org/">CFP Link</a></li>
+		</ul>
+
+		<p><span style="font-weight:bold">ACSAC 2025:</span></p>
+		<ul style="margin-top:0pt">
+			<li><span style="font-weight:bold">Submission:</span> <span class="date">May 30, 2025 23:59:59</span></li>
+			<li><a href="https://www.acsac.org/2025/submissions/papers/">CFP Link</a></li>
+		</ul>
+
+		<p><span style="font-weight:bold">S&P 2026 (Cycle 1/2):</span></p>
+		<ul style="margin-top:0pt">
+			<li><span style="font-weight:bold">Register:</span> <span class="date">May 29, 2025 23:59:59</span></li>
+			<li><span style="font-weight:bold">Submission:</span> <span class="date">June 5, 2025 23:59:59</span></li>
+			<li><a href="https://sp2026.ieee-security.org/cfpapers.html">CFP Link</a></li>
+		</ul>
+
+		<p><span style="font-weight:bold">NDSS 2026 (Cycle 2/2):</span></p>
+		<ul style="margin-top:0pt">
+			<li><span style="font-weight:bold">Submission:</span> <span class="date">July 30, 2025 23:59:59</span></li>
+			<li><a href="https://www.ndss-symposium.org/ndss2026/submissions/call-for-papers/">CFP Link</a></li>
+		</ul>
+
+	    <p><span style="font-weight:bold">ASPLOS 2026 (Cycle 2/2):</span></p>
+	    <!-- https://www.asplos-conference.org/asplos2025/cfp/ -->
+	    <ul style="margin-top:0pt">
+	    	<li><span style="font-weight:bold">Abstract:</span> <span class="date">Aug 13, 2025 23:59:59</span></li>
+	    	<li><span style="font-weight:bold">Submission:</span> <span class="date">Aug 20, 2025 23:59:59</span></li>
+	    	<li><a href="https://www.asplos-conference.org/asplos2026/cfp/">CFP Link</a></li>
+	    </ul>
+
+		<p><span style="font-weight:bold">DATE 2026:</span></p>
+	    <!-- https://www.date-conference.com/date-2025-call-papers -->
+	    <ul style="margin-top:0pt">
+	    	<!-- <li><span style="font-weight:bold">Register:</span> <span class="date">Sept 15, 2024 23:59:59</span></li> -->
+	    	<!-- <li><span style="font-weight:bold">Submission:</span> <span class="date">Sept 22, 2024 23:59:59</span></li> -->
+	    	<li><span style="font-weight:bold">Submission:</span> Mid September</li>
+	    	<li><a href="https://www.date-conference.com/date-2026-call-papers">CFP Link</a></li>
+	    </ul>
+
+		<p><span style="font-weight:bold">EuroSys 2026 (Cycle 2 of 2):</span></p>
+		<ul style="margin-top:0pt">
+			<li><span style="font-weight:bold">Register:</span> <span class="date">Sept 18, 2025 23:59:59</span></li>
+			<li><span style="font-weight:bold">Submission:</span> <span class="date">Sept 25, 2025 23:59:59</span></li>
+			<li><a href="https://2026.eurosys.org/">CFP Link</a></li>
+		</ul>  	
+
+		<p><span style="font-weight:bold">S&P 2026 (Cycle 2/2):</span></p>
+		<ul style="margin-top:0pt">
+			<li><span style="font-weight:bold">Register:</span> <span class="date">Nov 6, 2025 23:59:59</span></li>
+			<li><span style="font-weight:bold">Submission:</span> <span class="date">Nov 13, 2025 23:59:59</span></li>
+			<li><a href="https://sp2026.ieee-security.org/cfpapers.html">CFP Link</a></li>
+		</ul>
+
+		<!-- PASSED -->
+		<hr>
+		<h3>Passed!!</h3>
+
+		<p><span style="font-weight:bold">AsiaCCS 2025 (Cycle 1/2):</span></p>
+	    <!-- https://asiaccs2025.hust.edu.vn/call-for-papers/ -->
+	    <ul style="margin-top:0pt">
+	    	<li><span style="font-weight:bold">Submission:</span> <span class="date">Sept 20, 2024 23:59:59</span></li>
+	    	<li><a href="https://asiaccs2025.hust.edu.vn/call-for-papers/">CFP Link</a></li>
+	    </ul>
+
+	    <p><span style="font-weight:bold">CHES 2025 (Cycle 2/4):</span></p>
+	    <!-- https://ches.iacr.org/2025/ -->
+	    <ul style="margin-top:0pt">
+	    	<li><span style="font-weight:bold">Submission:</span> <span class="date">Oct 15, 2024 23:59:59</span></li>
+	    	<li><a href="https://ches.iacr.org/2025/">CFP Link</a></li>
+	    </ul>
+
+	    <p><span style="font-weight:bold">ISCA 2025:</span></p>
+	    <ul style="margin-top:0pt">
+	    	<li><span style="font-weight:bold">Abstract:</span> <span class="date">Oct 15, 2024 23:59:59</span></li>
+	    	<li><span style="font-weight:bold">Submission:</span> <span class="date">Oct 22, 2024 23:59:59</span></li>
+	    	<li><a href="https://iscaconf.org/isca2025/">CFP Link</a></li>
+	    </ul>  		
+
+	    <p><span style="font-weight:bold">Euro S&P 2025:</p>
+	    <ul style="margin-top:0pt">
+	    	<li><span style="font-weight:bold">Registration:</span> </span> <span class="date">Oct 21, 2024 23:59:59</span></li>
+	    	<li><span style="font-weight:bold">Submission:</span> </span> <span class="date">Oct 24, 2024 23:59:59</span></li>
+	    	<li><a href="https://eurosp2025.ieee-security.org/">CFP Link</a></li>
+	    </ul>  
+
+	    <p><span style="font-weight:bold">RTAS 2025:</span></p>
+	    <ul style="margin-top:0pt">
+	    	<li><span style="font-weight:bold">Submission:</span> <span class="date">Oct 31, 2024 23:59:59</span></li>
+	    	<li><a href="https://2025.rtas.org/">CFP Link</a></li>
+	    </ul>
+
+	    <p><span style="font-weight:bold">SenSys 2025:</span></p>
+	    <ul style="margin-top:0pt">
+	    	<li><span style="font-weight:bold">Submission:</span> <span class="date">Nov 14, 2025 23:59:59</span></li>
+	    	<li><a href="https://sensys.acm.org/2025/">CFP Link</a></li>
+	    </ul>
+
+        <p><span style="font-weight:bold">DAC 2025:</span></p>
+        <!-- https://www.date-conference.com/date-2025-call-papers -->
+        <ul style="margin-top:0pt">
+        	<li><span style="font-weight:bold">Registration:</span> </span> <span class="date">Nov 12, 2024 8:00:00</span></li>
+        	<li><span style="font-weight:bold">Submission:</span> </span> <span class="date">Nov 19, 2024 8:00:00</span></li>
+        	<li><a href="https://eurosp2025.ieee-security.org/">CFP Link</a></li>
+        </ul>  
+
+        <p><span style="font-weight:bold">DSN 2025:</p>
+    	<ul>
+    		<li><span style="font-weight:bold">Abstract due:</span> </span> <span class="date">Nov 27, 2024 23:59:59</span></li>
+    		<li><span style="font-weight:bold">Submission:</span> </span> <span class="date">Dec 6, 2024 23:59:59</span></li>
+    		<li><a href="https://dsn2025.github.io/dates.html">CFP Link</a></li>
+    	</ul>
+
+    	<p><span style="font-weight:bold">MobiSys 2025:</span></p>
+    	<ul style="margin-top:0pt">
+    		<li><span style="font-weight:bold">Registration:</span> </span> <span class="date">Dec 2, 2024 23:59:59</span></li>
+    		<li><span style="font-weight:bold">Submission:</span> </span> <span class="date">Dec 9, 2024 23:59:59</span></li>
+    		<li><a href="https://eurosp2025.ieee-security.org/">CFP Link</a></li>
+    	</ul>  
+
+	    <p><span style="font-weight:bold">PoPETs 2025 (Cycle 3/4):</p>
+	    <ul style="margin-top:0pt">
+	    	<li><span style="font-weight:bold">Submission:</span> </span> <span class="date">Nov 30, 2024 23:59:59</span></li>
+	    	<li><a href="https://petsymposium.org/">CFP Link</a></li>
+	    </ul>
+
+    	<p><span style="font-weight:bold">CCS 2025 (Cycle 1/2):</span></p>
+        <ul style="margin-top:0pt">
+        	<li><span style="font-weight:bold">Submission:</span> <span class="date">Jan 9, 2025 23:59:59</span></li>
+        	<li><a href="https://www.sigsac.org/ccs/CCS2025/call-for-papers/">CFP Link</a></li>
+        </ul>
+
+        <p><span style="font-weight:bold">ESORICS 2025 (Cycle 1/2):</span></p>
+        <ul style="margin-top:0pt">
+        	<li><span style="font-weight:bold">Submission:</span> </span> <span class="date">Jan 10, 2025 23:59:59</span></li>
+        	<li><a href="https://esorics2025.sciencesconf.org/resource/page/id/1">CFP Link</a></li>
+        </ul>
+
+    	<p><span style="font-weight:bold">ACNS 2025 (Cycle 2/2):</span></p>
+        <ul style="margin-top:0pt">
+        	<li><span style="font-weight:bold">Submission:</span> <span class="date">Jan 13, 2025 23:59:59</span></li>
+        	<li><a href="http://acns2025.fordaysec.de/call-for-papers/">CFP Link</a></li>
+        </ul>
+
+	    <p><span style="font-weight:bold">CHES 2025 (Cycle 3/4):</span></p>
+	    <ul style="margin-top:0pt">
+	    	<li><span style="font-weight:bold">Submission:</span> <span class="date">Jan 15, 2025 23:59:59</span></li>
+	    	<li><a href="https://ches.iacr.org/2025/">CFP Link</a></li>
+	    </ul>
+
+    	<p><span style="font-weight:bold">AsiaCCS 2025 (Cycle 2/2):</span></p>
+        <ul style="margin-top:0pt">
+        	<li><span style="font-weight:bold">Submission:</span> <span class="date">Jan 9, 2025 23:59:59</span></li>
+        	<li><a href="https://asiaccs2025.hust.edu.vn/">CFP Link</a></li>
+        </ul>
+
+        <p><span style="font-weight:bold">USENIX Security 2025 (Cycle 2/2):</span></p>
+	    <ul style="margin-top:0pt">
+	    	<li><span style="font-weight:bold">Submission:</span> <span class="date">Jan 22, 2025 23:59:59</span></li>
+	    	<li><a href="https://www.usenix.org/conference/usenixsecurity25/call-for-papers">CFP Link</a></li>
+	    </ul>    
+
+    	<p><span style="font-weight:bold">CSF 2025 (Cycle 3/3):</span></p>
+        <!-- https://asiaccs2025.hust.edu.vn/call-for-papers/ -->
+        <ul style="margin-top:0pt">
+        	<li><span style="font-weight:bold">Submission:</span> <span class="date">Feb 4, 2025 23:59:59</span></li>
+        	<li><a href="https://csf2025.ieee-security.org/cfp.html">CFP Link</a></li>
+        </ul>
+        <p><span style="font-weight:bold">PoPETs 2025 (Cycle 4/4):</p>
+        <ul style="margin-top:0pt">
+        	<li><span style="font-weight:bold">Submission:</span> </span> <span class="date">Feb 28, 2025 23:59:59</span></li>
+        	<li><a href="https://petsymposium.org/">CFP Link</a></li>
+        </ul>  
+        <p><span style="font-weight:bold">WiSec 2025 (Cycle 2/2):</span></p>
+        <ul style="margin-top:0pt">
+        	<li><span style="font-weight:bold">Submission:</span> <span class="date">March 12, 2025 23:59:59</span></li>
+        	<li><a href="https://wisec2025.gmu.edu/">CFP Link</a></li>
+        </ul>
+
+    	    <p><span style="font-weight:bold">EMSOFT 2025:</span></p>
+    	    <ul style="margin-top:0pt">
+    	    	<li><span style="font-weight:bold">Abstract:</span> <span class="date">March 23, 2025 23:59:59</span></li>
+    	    	<li><span style="font-weight:bold">Submission:</span> <span class="date">March 30, 2025 23:59:59</span></li>
+    	    	<li><a href="https://esweek.org/emsoft/">CFP Link</a></li>
+    	    </ul>
+
+        	<p><span style="font-weight:bold">CCS 2025 (Cycle 2/2):</span></p>
+            <ul style="margin-top:0pt">
+            	<li><span style="font-weight:bold">Submission:</span> <span class="date">April 14, 2025 23:59:59</span></li>
+            	<li><a href="https://www.sigsac.org/ccs/CCS2025/call-for-papers/">CFP Link</a></li>
+            </ul>
+
+    	    <p><span style="font-weight:bold">CHES 2025 (Cycle 4/4):</span></p>
+    	    <ul style="margin-top:0pt">
+    	    	<li><span style="font-weight:bold">Submission:</span> <span class="date">April 15, 2025 23:59:59</span></li>
+    	    	<li><a href="https://ches.iacr.org/2025/">CFP Link</a></li>
+    	    </ul>
+
+    	    <p><span style="font-weight:bold">NDSS 2026 (Cycle 1/2):</span></p>
+    	    <ul style="margin-top:0pt">
+    	    	<li><span style="font-weight:bold">Submission:</span> <span class="date">April 16, 2025 23:59:59</span></li>
+    	    	<li><a href="https://www.ndss-symposium.org/ndss2026/submissions/call-for-papers/">CFP Link</a></li>
+    	    </ul>
+
+    	    <p><span style="font-weight:bold">RAID 2025</span></p>
+    	    <ul style="margin-top:0pt">
+    	    	<li><span style="font-weight:bold">Submission:</span> <span class="date">April 17, 2025 23:59:59</span></li>
+    	    	<li><a href="https://raid2025.github.io/call.html">CFP Link</a></li>
+    	    </ul>
+
+    		<p><span style="font-weight:bold">ICCAD 2025:</span></p>
+    		<ul style="margin-top:0pt">
+    			<li><span style="font-weight:bold">Abstract:</span> <span class="date">April 14, 2025 23:59:59</span></li>
+    			<li><span style="font-weight:bold">Submission:</span> <span class="date">April 21, 2025 23:59:59</span></li>
+    			<li><a href="https://2025.iccad.com/">CFP Link</a></li>
+    		</ul>
+
+    		<p><span style="font-weight:bold">ESORICS 2025 (Cycle 2/2):</span></p>
+    		<ul style="margin-top:0pt">
+    			<li><span style="font-weight:bold">Submission:</span> </span> <span class="date">April 22, 2025 23:59:59</span></li>
+    			<li><a href="https://esorics2025.sciencesconf.org/resource/page/id/1">CFP Link</a></li>
+    		</ul>
+
+	</div>
+
+
+	<iframe src="./table.html" title="description"></iframe>
+</div>
+
+<script>
+    function updateCountdown() {
+        const dateElements = document.querySelectorAll('.date');
+        dateElements.forEach(el => {
+            const dateText = el.innerText;
+            const targetDate = new Date(dateText);
+
+            if (isNaN(targetDate.getTime())) {
+                el.nextElementSibling.innerText = "Invalid date format.";
+                return;
+            }
+
+            const now = new Date().getTime();
+            const distance = targetDate - now;
+
+            if (distance < 0) {
+                // Check if next sibling exists and has the 'countdown' class
+                if (!el.nextElementSibling || !el.nextElementSibling.classList.contains('countdown')) {
+                    const countdownSpan = document.createElement('span');
+                    countdownSpan.classList.add('countdown');
+                    el.parentNode.insertBefore(countdownSpan, el.nextSibling);
+                }
+                el.nextElementSibling.innerText = " -- The date has passed!";
+                return;
+            }
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Check if next sibling exists and has the 'countdown' class
+            if (!el.nextElementSibling || !el.nextElementSibling.classList.contains('countdown')) {
+                const countdownSpan = document.createElement('span');
+                countdownSpan.classList.add('countdown');
+                el.parentNode.insertBefore(countdownSpan, el.nextSibling);
+            }
+
+            el.nextElementSibling.innerText = `\t   (${days}d ${hours}h ${minutes}m ${seconds}s)`;
+        });
+    }
+
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+</script>
+
+</body>
+</html>
+

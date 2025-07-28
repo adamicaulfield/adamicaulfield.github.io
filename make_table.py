@@ -63,7 +63,9 @@ for i in range(0, len(csv_data)-1):
         print("\t<thead>", file=html_file)
         
     print("\t\t<tr>", file=html_file)
-    for elt in row_elts:
+    for i in range(0, 4):
+        elt = row_elts[i]
+
         if elt == row_elts[-1] and not first:
             print(f"\t\t\t<td><a href=\"{elt}\">Link</a></td>", file=html_file)
         elif first:

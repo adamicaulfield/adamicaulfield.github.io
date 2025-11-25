@@ -1,0 +1,678 @@
+
+<html>
+<head/><link rel="stylesheet" href="../default.css">
+<head>
+    <title>Adam Caulfield</title>
+    <!-- <meta http-equiv="Refresh" content="0; url='https://adamicaulfield.github.io/'" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="banner">
+    <div class="top-banner">
+    <nav>
+      <ul style="margin-top:0pt">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./research.html">Research</a></li>
+        <li><a href="./experiences.html">Experiences</a></li>
+        <li><a href="./links.html">My Links</a></li>
+      </ul>
+    </nav>
+    </div>
+</div>
+
+<div class="main-content">
+
+<h2>CS 453/698 - Software and Systems Security</h3>
+<p>Welcome to CS 453/698 for Winter 2026! This page has (tentative) basic info about the course itself. There may be information missing, and is subject to change with sufficient notice to students. Please see the LEARN site for a comprehensive syllabus.</p>
+
+<h3>Overview</h3>
+<p>This course provides an introduction to security issues in modern software, operating systems, and other computing platforms (e.g., mobile and cloud environments). It examines causes of security breaches and gives methods to help detect, isolate, and prevent them. Students completing this course should gain an understanding of attack vectors against modern computing environments and software-/system-level defenses that counteract them.</p>
+
+<h3>Grading</h3>
+<table style="text-align:left; border: 1px solid black; border-collapse: collapse; max-width: 30%;"> 
+	<thead style="border: 1px solid black; border-collapse: collapse;">
+		<tr>
+			<td><span style="font-weight:bold">Component</span></td>
+			<td><span style="font-weight:bold">Number</span></td>
+			<td><span style="font-weight:bold">Total Weight</span></td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr style="font-weight:bold">
+			<td>Assignments</td>
+			<td>3</td>
+			<td>30%</td>
+		</tr>
+		<tr style="font-weight:bold">
+			<td>Quizzes</td>
+			<td>4</td>
+			<td>40%</td>
+		</tr>
+		<!-- <tr style="font-weight:bold">
+			<td>Research Seminar</td>
+			<td>1</td>
+			<td>20%</td>
+		</tr>
+		<tr>
+			<td>Paper Presentations</td>
+			<td>1</td>
+			<td>5%</td>
+		</tr>
+		<tr>
+			<td>Midterm Progress</td>
+			<td>1</td>
+			<td>10%</td>
+		</tr>
+		<tr>
+			<td>Final Project</td>
+			<td>1</td>
+			<td>15%</td>
+		</tr> -->
+		<tr style="font-weight:bold">
+			<td>Research Project</td>
+			<td>1</td>
+			<td>30%</td>
+		</tr>
+		<tr>
+			<td>Project Proposal</td>
+			<td>1</td>
+			<td>5%</td>
+		</tr>
+		<tr>
+			<td>Midterm Progress</td>
+			<td>1</td>
+			<td>10%</td>
+		</tr>
+		<tr>
+			<td>Final Project</td>
+			<td>1</td>
+			<td>15%</td>
+		</tr>
+	</tbody>
+</table>
+
+<h3>Research Projects</h3>
+<p>Students will form teams of 3-4 students (TBD based on final enrollement) to complete a research project related to the course topics. Acceptable topics can be discussed with the instructor and TA(s) in class and during office hours. The research project should follow (and will be evaluated according to) the following guidelines:</p>
+
+<p><span style="font-weight:bold">Project Proposal:</span>  A 1-page project proposal must be submitted to LEARN and briefly presented in class by the group. This will be an opportunity to receive feedback from the instructor and classmates on the proposed project. The project proposal should include at least an introduction, a statement about the problem being addressed, an initial review of the related literature.</p>
+
+<p><span style="font-weight:bold">Midterm progress:</span>  A 4-page midterm project report should be submitted to LEARN. The midterm report should extend the project proposal to have a comprehensive literature review and a plan of action along with the plan's rationale. Successful midterm reports must demonstrate substantial progress since the project proposal submission - specifically as it relates to actual design, implementation, and evaluation.</p>
+
+<p><span style="font-weight:bold">Final:</span>  Teams will be asked to present their final results and are welcome to demo any prototype/implementation (if applicable). A written final report (6-8 pages) describing the project idea, design, implementation, challenges, and results should be delivered by the end of the term. The report should be structured as a typical research paper and contain at least: (1) introduction & motivation; (2) appropriately cited references and a discussion on relevant prior work on the field; (3) clearly discuss the idea rationale; (4) describe any implementation and/or security analysis (including figures); (5) report on any experimental results (including figures); (6) outline lessons learned, limitations, and potential future directions.</p>
+
+<p>Ideally, these project components all build on each other. For example, (1-3) from the final report ideally are completed after completing the project proposal. The midterm report contains a refined (1-3) based on instructor feedback and a partially completed (4-5). By the time the final presentation and report arrive, it ideally only involve extending the midterm report to complete (4-5) and add (6).</p>
+
+<p>I am not strict about templates/formats. However, you should not use a format for the report that totally abuses white space or font sizes. I recommend <a href="https://www.usenix.org/conferences/author-resources/paper-templates">USENIX conference template</a>, but an ACM or IEEE template will do as well.</p>
+
+<h3>Assignments</h3>
+<p>There are three graded assignments; each is take-home, self-contained, and individually-graded. Their goals are to: (1) warm you up for and deepen your understanding of the course material; (2) show how the concepts apply to real-world software; and (3) give you practical, working examples of technologies that you may use in your project, if applicable. 
+All assignments are released upon the course's start date and are not due until the Friday one week after the course lecture on that topic. For example, Assignment 1 with topic of fuzzing (lecture on Jan. 21) is due on Jan. 30. Each assignment has 10% weight on the final grade. The assignment topics are below:</p>
+
+<p><span style="font-weight:bold">Assignment 1:</span> Fuzzing for bugs with AFL++</p>
+
+<p><span style="font-weight:bold">Assignment 2:</span> Attacks and defenses on seccomp-based compartments</p>
+
+<p><span style="font-weight:bold">Assignment 3:</span> Building hardware-assisted secure services (simulating ARM TrustZone & Intel SGX).</p>
+
+<h3>Quizzes</h3>
+<p>Students are also evaluated based on four quizzes, each marking the end the of content for a particular course sub-topic. Each quiz occurs during the first 15-20 minutes of the scheduled class date. Below are the details about the topics evaluated in each quiz:</p>
+
+<p><span style="font-weight:bold">Quiz 1:</span> Program/system abstractions, memory errors, race conditions</p>
+
+<p><span style="font-weight:bold">Quiz 2:</span> Fuzzing, symbolic execution, memory safety, software diversification, run-time integrity</p>
+
+<p><span style="font-weight:bold">Quiz 3:</span> OS Security & malware, compartmentalization, access control</p>
+
+<p><span style="font-weight:bold">Quiz 4:</span> Attestation vs. Authentication, Supply-chain security, TPMs, Intel SGX, TrustZone, Side channel attacks</p>
+
+<h3>Tentative Schedule</h3>
+<p>
+	<span style="font-weight:bold">Key:</span>
+	<span style="background-color:lightblue;">Important date</span>
+	<span style="background-color:yellow;">Class Meeting</span>
+	<span style="background-color:lightgreen;">Assignment due</span>
+	<span style="background-color:orange;">Quiz/Presentation</span>
+	<span style="background-color:lightpink;">Holiday</span>
+</p>
+
+<table style="text-align:left; border: 1px solid black; border-collapse: collapse;"> 
+	<thead style="border: 1px solid black; border-collapse: collapse;">
+		<tr>
+			<td><span style="font-weight:bold">Week</span></td>
+			<td bgcolor="yellow"><span style="font-weight:bold">Mon.</span></td>
+			<td><span style="font-weight:bold">Tues.</span></td>
+			<td bgcolor="yellow"><span style="font-weight:bold">Wed.</span></td>
+			<td><span style="font-weight:bold">Thurs.</span></td>
+			<td><span style="font-weight:bold">Fri.</span></td>
+		</tr>
+	</thead>
+	<tbody>
+		<!-- Week 1-->
+		<tr style="border: 1px solid black; border-collapse: collapse;">  
+			<td>1</td>
+			<td bgcolor="yellow">
+				<p>Jan. 5</p>
+				<p style="background-color:lightblue">Classes start</p>
+				<p><span style="font-weight:bold">Topic:</span> Course Intro.</p>
+			</td>
+			<td>
+				<p>Jan. 6</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			<td bgcolor="yellow">
+				<p>Jan. 7</p>
+				<p style="color:yellow">.</p>
+				<p><span style="font-weight:bold">Topic:</span> Crypto Background</p>
+			</td>
+			</td>
+			<td>
+				<p>Jan. 8</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			<td>
+				<p>Jan. 9</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+		</tr>
+		<!-- Week 2-->
+		<tbody>
+		<tr style="border: 1px solid black; border-collapse: collapse;">  
+			<td>2</td>
+			<td bgcolor="yellow">
+				<p>Jan. 12</p>
+				<p style="color:yellow">.</p>
+				<p><span style="font-weight:bold">Topic:</span> Program Abstractions</p>
+			</td>
+			<td>
+				<p>Jan. 13</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			<td bgcolor="yellow">
+				<p>Jan. 14</p>
+				<!-- <p style="background-color:lightblue">Classes start</p> -->
+				<p style="color:yellow">.</p>
+				<p><span style="font-weight:bold">Topic:</span> Memory Errors</p>
+			</td>
+			</td>
+			<td>
+				<p>Jan. 15</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			<td>
+				<p>Jan. 16</p>
+				<p style="background-color:lightblue">Add period ends</p>
+				<p style="color:white;"> .</p>
+			</td>
+		</tr>
+		<!-- Week 3-->
+		<tbody>
+		<tr style="border: 1px solid black; border-collapse: collapse;">  
+			<td>3</td>
+			<td bgcolor="yellow">
+				<p>Jan. 19</p>
+				<p style="color:yellow">.</p>
+				<p><span style="font-weight:bold">Topic:</span> Race Conditions</p>
+			</td>
+			<td>
+				<p>Jan. 20</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			<td bgcolor="yellow">
+				<p>Jan. 21</p>
+				<!-- <p style="background-color:lightblue">Classes start</p> -->
+				<!-- <p style="color:yellow">.</p> -->
+				<p><span style="background-color:orange">Quiz 1</span></p>
+				<p><span style="font-weight:bold">Topic:</span> Fuzzing</p>
+			</td>
+			</td>
+			<td>
+				<p>Jan. 22</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			<td>
+				<p>Jan. 23</p>
+				<p style="background-color:lightblue">Drop period ends</p>
+				<p style="color:white;"> .</p>
+			</td>
+		</tr>
+		<!-- Week 4-->
+		<tbody>
+		<tr style="border: 1px solid black; border-collapse: collapse;">  
+			<td>4</td>
+			<td bgcolor="yellow">
+				<p>Jan. 26</p>
+				<p style="color:yellow">.</p>
+				<p><span style="font-weight:bold">Topic:</span> Symbolic Execution</p>
+			</td>
+			<td>
+				<p>Jan. 27</p>
+				<p style="color:white;"> .</p>
+				<p><span style="background-color:lightgreen">List of project members due</span></p>
+			</td>
+			<td bgcolor="yellow">
+				<p>Jan. 28</p>
+				<!-- <p style="background-color:lightblue">Classes start</p> -->
+				<p style="color:yellow">.</p>
+				<p><span style="font-weight:bold">Topic:</span>Memory safe architectures</p>
+			</td>
+			</td>
+			<td>
+				<p>Jan. 29</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			<td>
+				<p>Jan. 30</p>
+				<p style="color:white;"> .</p>
+				<p><span style="background-color:lightgreen">Assignment 1 Due</span></p>
+			</td>
+		</tr>
+		<!-- Week 5-->
+		<tr style="border: 1px solid black; border-collapse: collapse;">  
+			<td>5</td>
+			<td bgcolor="yellow">
+				<p>Feb. 2</p>
+				<p style="color:yellow">.</p>
+				<p><span style="font-weight:bold">Topic:</span> Software Diversification</p>
+			</td>
+			<td>
+				<p>Feb. 3</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			<td bgcolor="yellow">
+				<p>Feb. 4</p>
+				<!-- <p style="background-color:lightblue">Classes start</p> -->
+				<p style="color:yellow">.</p>
+				<p><span style="font-weight:bold">Topic:</span> Run-time Integrity</p>
+			</td>
+			</td>
+			<td>
+				<p>Feb. 5</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			<td>
+				<p>Feb. 6</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+		</tr>
+		<!-- Week 6-->
+		<tbody>
+		<tr style="border: 1px solid black; border-collapse: collapse;">  
+			<td>6</td>
+			<td bgcolor="yellow">
+				<p>Feb. 9</p>
+				<p style="color:yellow">.</p>
+				<p><span style="font-weight:bold">Topic:</span> <span style="background-color:orange">Proposal Presentations</span></p>
+			</td>
+			<td>
+				<p>Feb. 10</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			<td bgcolor="yellow">
+				<p>Feb. 11</p>
+				<!-- <p style="background-color:lightblue">Classes start</p> -->
+				<p style="color:yellow">.</p>
+				<p><span style="font-weight:bold">Topic:</span> <span style="background-color:orange">Proposal Presentations</span></p>
+			</td>
+			</td>
+			<td>
+				<p>Feb. 12</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			<td>
+				<p>Feb. 13</p>
+				<p style="color:white;"> .</p>
+				<p><span style="background-color:lightgreen">Proposal Report Due</span></p>
+			</td>
+		</tr>
+		<!-- Week 7-->
+		<tbody>
+		<tr style="border: 1px solid black; border-collapse: collapse;">  
+			<td>7</td>
+			<td bgcolor="lightblue">
+				<p>Feb. 16</p>
+				<p style="background-color:lightblue">Reading Week</p>
+				<p><span style="font-weight:bold">Topic:</span> No Class</p>
+			</td>
+			<td bgcolor="lightblue">
+				<p>Feb. 17</p>
+				<p style="background-color:lightblue">Reading Week</p>
+				<p>.</p>
+			</td>
+			<td bgcolor="lightblue">
+				<p>Feb. 18</p>
+				<p style="background-color:lightblue">Reading Week</p>
+				<p><span style="font-weight:bold">Topic:</span> No Class</p>
+			</td>
+			<td bgcolor="lightblue">
+				<p>Feb. 19</p>
+				<p style="background-color:lightblue">Reading Week</p>
+				<p>.</p>
+			</td>
+			<td bgcolor="lightblue">
+				<p>Feb. 20</p>
+				<p style="background-color:lightblue">Reading Week</p>
+				<p>.</p>
+			</td>
+		</tr>
+		<!-- Week 4-->
+		<tbody>
+		<tr style="border: 1px solid black; border-collapse: collapse;">  
+			<td>8</td>
+			<td bgcolor="yellow">
+				<p>Feb. 23</p>
+				<!-- <p style="color:yellow">.</p> -->
+				<p><span style="background-color:orange">Quiz 2</span></p>
+				<p><span style="font-weight:bold">Topic:</span> OS Security & Malware</p>
+			</td>
+			<td>
+				<p>Feb. 24</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			<td bgcolor="yellow">
+				<p>Feb. 25</p>
+				<!-- <p style="background-color:lightblue">Classes start</p> -->
+				<p style="color:yellow">.</p>
+				<p><span style="font-weight:bold">Topic:</span> Compartmentatlization</p>
+			</td>
+			</td>
+			<td>
+				<p>Feb. 26</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			<td>
+				<p>Feb. 27</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+		</tr>
+		<!-- Week 9-->
+		<tr style="border: 1px solid black; border-collapse: collapse;">  
+			<td>9</td>
+			<td bgcolor="yellow">
+				<p>Mar. 2</p>
+				<!-- <span style="background-color:orange">Quiz 3</span> -->
+				<p style="color:yellow">.</p>
+				<p><span style="font-weight:bold">Topic:</span> Access Control</p>
+			</td>
+			<td>
+				<p>Mar. 3</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			<td bgcolor="yellow">
+				<p>Mar. 4</p>
+				<!-- <p style="background-color:lightblue">Classes start</p> -->
+				<!-- <p style="color:yellow">.</p> -->
+				<p><span style="background-color:orange">Quiz 3</span></p>
+				<p><span style="font-weight:bold">Topic:</span> Authentication & Attestation</p>
+			</td>
+			</td>
+			<td>
+				<p>Mar. 5</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			<td>
+				<p>Mar. 6</p>
+				<p style="color:white;"> .</p>
+				<p><span style="background-color:lightgreen">Assignment 2 Due</span></p>
+			</td>
+		</tr>
+		<!-- Week 10-->
+		<tbody>
+		<tr style="border: 1px solid black; border-collapse: collapse;">  
+			<td>10</td>
+			<td bgcolor="yellow">
+				<p>Mar. 9</p>
+				<p style="color:yellow">.</p>
+				<p><span style="font-weight:bold">Topic:</span> Supply-chain security</p>
+			</td>
+			<td>
+				<p>Mar. 10</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			<td bgcolor="yellow">
+				<p>Mar. 11</p>
+				<!-- <p style="background-color:lightblue">Classes start</p> -->
+				<span style="color:white">.</span>
+				<p><span style="font-weight:bold">Topic:</span> TPMs</p>
+			</td>
+			</td>
+			<td>
+				<p>Mar. 12</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			<td>
+				<p>Mar. 13</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+		</tr>
+		<!-- Week 11-->
+		<tbody>
+		<tr style="border: 1px solid black; border-collapse: collapse;">  
+			<td>11</td>
+			<td bgcolor="yellow">
+				<p>Mar. 16</p>
+				<p style="color:yellow">.</p>
+				<p><span style="font-weight:bold">Topic:</span> TEEs and Intel SGX</p>
+			</td>
+			<td>
+				<p>Mar. 17</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			<td bgcolor="yellow">
+				<p>Mar. 18</p>
+				<!-- <p style="background-color:lightblue">Classes start</p> -->
+				<p style="color:yellow">.</p>
+				<p><span style="font-weight:bold">Topic:</span> TrustZone & Android</p>
+			</td>
+			</td>
+			<td>
+				<p>Mar. 19</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			<td>
+				<p>Mar. 20</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+		</tr>
+		<!-- Week 12-->
+		<tbody>
+		<tr style="border: 1px solid black; border-collapse: collapse;">  
+			<td>12</td>
+			<td bgcolor="yellow">
+				<p>Mar. 23</p>
+				<p style="color:yellow">.</p>
+				<p><span style="font-weight:bold">Topic:</span> Side channel attacks</p>
+			</td>
+			<td>
+				<p>Mar. 24</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			<td bgcolor="yellow">
+				<p>Mar. 25</p>
+				<!-- <p style="background-color:lightblue">Classes start</p> -->
+				<p><span style="background-color:orange">Quiz 4</span></p>
+				<p><span style="font-weight:bold">Topic:</span> Ethics & Law</p>
+			</td>
+			</td>
+			<td>
+				<p>Mar. 26</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			<td>
+				<p>Mar. 27</p>
+				<p><span style="background-color:lightgreen">Assignment 3 Due</span></p>
+				<p style="color:white;"> .</p>
+			</td>
+		</tr>
+		<!-- Week 13-->
+		<tbody>
+		<tr style="border: 1px solid black; border-collapse: collapse;">  
+			<td>13</td>
+			<td bgcolor="yellow">
+				<p>Mar. 30</p>
+				<p style="color:white;"> .</p>
+				<p><span style="font-weight:bold">Topic:</span> <span style="background-color:orange">Project Presentations</span></p>
+			</td>
+			<td>
+				<p>Mar. 31</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			<td bgcolor="yellow">
+				<p>Apr. 1</p>
+				<!-- <p style="background-color:lightblue">Classes start</p> -->
+				<p style="background-color:lightblue">Last lecture</p>
+				<p><span style="font-weight:bold">Topic:</span> <span style="background-color:orange">Project Presentations</span></p>
+			</td>
+			</td>
+			<td>
+				<p>Apr. 2</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			<td bgcolor="lightpink">
+				<p>Apr. 3</p>
+				<p>Good Friday</p>
+				<p style="color:white;"> .</p>
+			</td>
+		<!-- Week 14-->
+		<tbody>
+		<tr style="border: 1px solid black; border-collapse: collapse;">  
+			<td>14</td>
+			<td bgcolor="lightblue">
+				<p>Apr. 6</p>
+				<p style="background-color:lightblue">Make up day</p>
+				<p><span style="font-weight:bold"></span>Follows friday Schedule</p>
+			</td>
+			<td>
+				<p>Apr. 7</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			<td>
+				<p>Apr. 8</p>
+				<!-- <p style="background-color:lightblue">Classes start</p> -->
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			</td>
+			<td>
+				<p>Apr. 9</p>
+				<p style="background-color:lightblue">Final exams begin</p>
+				<p style="color:white;"> .</p>
+			</td>
+			<td>
+				<p>Apr. 10</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+		</tr>
+		<!-- Week 15-->
+		<tbody>
+		<tr style="border: 1px solid black; border-collapse: collapse;">    
+			<td>15</td>
+			<td>
+				<p>Apr. 13</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			<td>
+				<p>Apr. 14</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			<td>
+				<p>Apr. 15</p>
+				<!-- <p style="background-color:lightblue">Classes start</p> -->
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			</td>
+			<td>
+				<p>Apr. 16<p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			<td>
+				<p>Apr. 10</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+		</tr>
+		<!-- Week 16-->
+		<tbody>
+		<tr>  
+			<td>16</td>
+			<td>
+				<p>Apr. 20</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			<td>
+				<p>Apr. 21</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			<td>
+				<p>Apr. 22</p>
+				<!-- <p style="background-color:lightblue">Classes start</p> -->
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+			</td>
+			<td>
+				<p>Apr. 23<p>
+				<p style="background-color:lightblue">Final exams end</p>
+				<p><span style="background-color:lightgreen">Final Project Report Due
+			</td>
+			<td>
+				<p>Apr. 24</p>
+				<p style="color:white;"> .</p>
+				<p style="color:white;"> .</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+
+<h3>Instructor Contact & Office Hours</h3>
+<p>Students are welcome to contact me any time via email. Office hours are once a week (see syllabus on LEARN for time and location). If you cannot meet at the allotted time and would like to meet, it is no problem- just shoot me an email to set it up.</p>
+
+</div>
+
+</body>
+</html>
+

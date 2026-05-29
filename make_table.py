@@ -39,7 +39,7 @@ footer = f"""
 </html>
 """
 
-csv_file = open("test.csv", 'r')
+csv_file = open("conferences.csv", 'r')
 csv_data = csv_file.readlines()
 csv_file.close()
 

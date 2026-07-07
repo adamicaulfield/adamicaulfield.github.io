@@ -165,7 +165,7 @@ let scoresSortDir = -1;
 // Supabase Configuration
 // REPLACE THESE VALUES WITH YOUR ACTUAL SUPABASE CONFIG
 const SUPABASE_URL = 'https://lutgpdcziwaqmbnvhkle.supabase.co';
-const SUPABASE_ANON_KEY = 'sb_publishable_7s3blRpoTIVHAFFA1IHutA_S8NMuyY8';
+const SUPABASE_ANON_KEY = 'sb_' + window.prompt('Enter your Supabase publishable key', '');
 const SUPABASE_TABLE = 'reviews';
 
 function populateSelect(id, options, includeAll) {
@@ -209,7 +209,6 @@ async function supabaseRequest(method, path, data = null) {
   const headers = {
     'Content-Type': 'application/json',
     'apikey': SUPABASE_ANON_KEY,
-    'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
     'Prefer': 'return=representation'
   };
 

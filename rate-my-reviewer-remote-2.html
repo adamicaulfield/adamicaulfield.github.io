@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Rate My Reviewer - Remote</title>
+  <title>Rate My Reviewer</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 20px; max-width: 900px; }
     nav a { margin-right: 15px; cursor: pointer; }
@@ -23,7 +23,7 @@
 </head>
 <body>
 
-<h1>Rate My Reviewer - Remote Edition</h1>
+<h1>Rate My Reviewer</h1>
 
 <nav>
   <a onclick="showPage('submit')" id="nav-submit" class="active">Submit Review</a>
@@ -202,9 +202,6 @@ function showPage(name) {
   if (name === "detail") renderDetail();
 }
 
-// Returns { ok, status, data } instead of throwing, so callers can show
-// the real Supabase error message (e.g. an RLS policy rejection) instead
-// of a generic failure.
 async function supabaseRequest(method, path, data = null) {
   const url = `${SUPABASE_URL}/rest/v1/${path}`;
   const headers = {

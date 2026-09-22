@@ -53,7 +53,7 @@ html_file = open("./deadlines.html", "w")
 print(heading, file=html_file)
 print("<table>", file=html_file)
 first = True
-for i in range(0, len(csv_data)-1):
+for i in range(0, len(csv_data)):
     line = csv_data[i]
     line = line.replace("\n",'')
     row_elts = line.split(',')
@@ -63,7 +63,9 @@ for i in range(0, len(csv_data)-1):
         print("\t<thead>", file=html_file)
         
     print("\t\t<tr>", file=html_file)
+    print(row_elts)
     for i in range(0, 4):
+        # print(i)
         elt = row_elts[i]
 
         if elt == row_elts[-1] and not first:
